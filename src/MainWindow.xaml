@@ -8,7 +8,6 @@
         Background="Transparent" 
         Height="450" Width="800">
 
-    <!-- Define the button hover style in Window.Resources -->
     <Window.Resources>
         <Style x:Key="HoverButtonStyle" TargetType="{x:Type Button}">
             <Setter Property="Background" Value="Black"/>
@@ -47,7 +46,6 @@
     </Window.Triggers>
 
     <Grid Background="#1A1A1A">
-        <!-- Blurred Circle Animation -->
         <Canvas>
             <Ellipse Width="322" Height="278" Fill="LightGray" Opacity="0.1" Canvas.Left="239" Canvas.Top="100" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Ellipse.Effect>
@@ -83,7 +81,6 @@
         </Canvas>
 
         <Grid>
-            <!-- Custom Title Bar -->
             <Grid Background="Black" Height="25" VerticalAlignment="Top" MouseLeftButtonDown="CustomTitleBar_MouseLeftButtonDown">
                 <TextBlock Text="Among Us: Classic" 
                            Foreground="White" 
@@ -108,7 +105,6 @@
 
             <!-- Main Content -->
             <Grid Margin="0,40,0,0">
-                <!-- Your content goes here -->
             </Grid>
         </Grid>
     </Grid>

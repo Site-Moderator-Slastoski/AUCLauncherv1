@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\AUCLauncherv1.csproj": {}
+    "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1GitFix\\AUCLauncherv1\\src\\AUCLauncherv1.csproj": {}
   },
   "projects": {
-    "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\AUCLauncherv1.csproj": {
+    "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1GitFix\\AUCLauncherv1\\src\\AUCLauncherv1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\AUCLauncherv1.csproj",
+        "projectUniqueName": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1GitFix\\AUCLauncherv1\\src\\AUCLauncherv1.csproj",
         "projectName": "AUCLauncherv1",
-        "projectPath": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\AUCLauncherv1.csproj",
+        "projectPath": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1GitFix\\AUCLauncherv1\\src\\AUCLauncherv1.csproj",
         "packagesPath": "C:\\Users\\youtu\\.nuget\\packages\\",
-        "outputPath": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\obj\\",
+        "outputPath": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1GitFix\\AUCLauncherv1\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

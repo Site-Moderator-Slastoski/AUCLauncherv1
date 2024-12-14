@@ -1,5 +1,6 @@
 # Among Us: Classic Launcher 💻
 [![](https://dcbadge.limes.pink/api/server/https://discord.gg/4vTdZPj2fm)](https://discord.gg/https://discord.gg/4vTdZPj2fm)
+
 A launcher that makes playing the old versions of Among Us even easier! 😁
 
 

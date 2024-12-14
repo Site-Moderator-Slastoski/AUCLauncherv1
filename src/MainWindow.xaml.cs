@@ -11,13 +11,13 @@ namespace YourNamespace
 
         private void CustomTitleBar_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            if (e.ClickCount == 2) // Double-click to maximize/restore
+            if (e.ClickCount == 2)
             {
                 WindowState = WindowState == WindowState.Maximized ? WindowState.Normal : WindowState.Maximized;
             }
             else
             {
-                DragMove(); // Allow dragging
+                DragMove();
             }
         }
 

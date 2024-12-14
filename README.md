@@ -1,4 +1,5 @@
 # Among Us: Classic Launcher 💻
+[![Discord](https://dcbadge.vercel.app/api/server/eDnHTT3aBS?style=flat/discord/822639649247592528?color=7289DA&label=Discord)](https://dsc.gg/amongusclassic)
 A launcher that makes playing the old versions of Among Us even easier! 😁
 
 

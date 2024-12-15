@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|d:\\among us classic\\launcher\\repo\\auclauncherv1\\auclauncherv1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|d:\\among us classic\\launcher\\repo\\auclauncherv1\\auclauncherv1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|d:\\among us classic\\launcher\\repo\\auclauncherv1\\auclauncherv1\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|solutionrelative:mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|d:\\among us classic\\launcher\\repo\\auclauncherv1\\auclauncherv1\\auclauncherv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|solutionrelative:auclauncherv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|d:\\among us classic\\launcher\\repo\\auclauncherv1\\auclauncherv1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9D3C6EA-77AB-462F-9BF1-552207BC9020}|AUCLauncherv1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T18:43:37.926Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T18:31:14.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAgwOYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T19:04:00.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AUCLauncherv1.csproj",
+              "DocumentMoniker": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\AUCLauncherv1.csproj",
+              "RelativeDocumentMoniker": "AUCLauncherv1.csproj",
+              "ToolTip": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\AUCLauncherv1.csproj",
+              "RelativeToolTip": "AUCLauncherv1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T19:02:57.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "37f82283-9179-4c0c-b658-6531c5331a7f",
+        "Display": 0,
+        "X": 327,
+        "Y": 198,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwGoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T18:31:25.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

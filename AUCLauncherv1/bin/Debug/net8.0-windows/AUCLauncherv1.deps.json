@@ -8,10 +8,30 @@
     ".NETCoreApp,Version=v8.0": {
       "AUCLauncherv1/1.0.0": {
         "dependencies": {
+          "Material.Icons.WPF": "2.1.10",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "AUCLauncherv1.dll": {}
+        }
+      },
+      "Material.Icons/2.1.10": {
+        "runtime": {
+          "lib/netstandard2.0/Material.Icons.dll": {
+            "assemblyVersion": "2.1.10.0",
+            "fileVersion": "2.1.10.0"
+          }
+        }
+      },
+      "Material.Icons.WPF/2.1.10": {
+        "dependencies": {
+          "Material.Icons": "2.1.10"
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Material.Icons.WPF.dll": {
+            "assemblyVersion": "2.1.10.0",
+            "fileVersion": "2.1.10.0"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -29,6 +49,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Material.Icons/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nQnLAoVb9lgxWd4OtDADPVzBxERB9UYQd0UWcrqjg0NKFf8oPMuDM2kkxpBKe/Wm6Ayx3C/t3j2+8R1Nscg0Kw==",
+      "path": "material.icons/2.1.10",
+      "hashPath": "material.icons.2.1.10.nupkg.sha512"
+    },
+    "Material.Icons.WPF/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oaMg2VWY0HdIDkaE2T5TjiJBxhRCgdRd+tnO2YPNcIJpa2ZG1BDcGwmTvZpPEec8JrMG9ZEvx6JtiF152H+iVA==",
+      "path": "material.icons.wpf/2.1.10",
+      "hashPath": "material.icons.wpf.2.1.10.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

@@ -2,6 +2,30 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "Material.Icons/2.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Material.Icons.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Material.Icons.dll": {}
+        }
+      },
+      "Material.Icons.WPF/2.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Material.Icons": "2.1.10"
+        },
+        "compile": {
+          "lib/net7.0-windows7.0/Material.Icons.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Material.Icons.WPF.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -18,6 +42,35 @@
     }
   },
   "libraries": {
+    "Material.Icons/2.1.10": {
+      "sha512": "nQnLAoVb9lgxWd4OtDADPVzBxERB9UYQd0UWcrqjg0NKFf8oPMuDM2kkxpBKe/Wm6Ayx3C/t3j2+8R1Nscg0Kw==",
+      "type": "package",
+      "path": "material.icons/2.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Material.Icons.dll",
+        "material.icons.2.1.10.nupkg.sha512",
+        "material.icons.nuspec"
+      ]
+    },
+    "Material.Icons.WPF/2.1.10": {
+      "sha512": "oaMg2VWY0HdIDkaE2T5TjiJBxhRCgdRd+tnO2YPNcIJpa2ZG1BDcGwmTvZpPEec8JrMG9ZEvx6JtiF152H+iVA==",
+      "type": "package",
+      "path": "material.icons.wpf/2.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/Material.Icons.WPF.dll",
+        "lib/net6.0-windows7.0/Material.Icons.WPF.dll",
+        "lib/net7.0-windows7.0/Material.Icons.WPF.dll",
+        "lib/netcoreapp3.1/Material.Icons.WPF.dll",
+        "material.icons.wpf.2.1.10.nupkg.sha512",
+        "material.icons.wpf.nuspec"
+      ]
+    },
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -51,6 +104,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "Material.Icons.WPF >= 2.1.10",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -104,6 +158,10 @@
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
+          "Material.Icons.WPF": {
+            "target": "Package",
+            "version": "[2.1.10, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"

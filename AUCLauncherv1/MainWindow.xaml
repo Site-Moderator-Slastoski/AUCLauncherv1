@@ -161,6 +161,10 @@
                     <TextBlock HorizontalAlignment="Left" Height="60" Margin="15,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Foreground="White" FontFamily="Noto Sans" FontWeight="Bold" FontSize="60"><Run Language="en-gb" Text="Welcome!"/></TextBlock>
                     <TextBlock x:Name="WelcomeText" HorizontalAlignment="Left" Height="38" Margin="15,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Foreground="White" FontFamily="Noto Sans" FontSize="36"><Run Language="en-gb" Text="Welcome!"/></TextBlock>
                 </Grid>
+                <Grid/>
+                <Grid>
+                    <Image x:Name="SlideshowImage" HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Slideshow Images/image1.png" Margin="63,177,0,0" Height="297" Width="716"></Image>
+                </Grid>
             </Grid>
         </Canvas>
 
@@ -189,9 +193,7 @@
                 </StackPanel>
             </Grid>
 
-            <!-- Main Content -->
             <Grid Margin="0,40,0,0">
-                <!-- Your content goes here -->
             </Grid>
         </Grid>
     </Grid>

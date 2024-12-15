@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AUCLauncherv1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d48bf30c7dd5db0905eb60a2f46dab2505424f9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3af93228d70c342afd5c5f1878badfc1df86744")]
 [assembly: System.Reflection.AssemblyProductAttribute("AUCLauncherv1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AUCLauncherv1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

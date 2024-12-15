@@ -19,7 +19,7 @@ namespace YourNamespace
         private const string TokenUrl = "https://discord.com/api/oauth2/token";
         private const string UserInfoUrl = "https://discord.com/api/users/@me";
         private const string ClientId = "1317587040333991989";
-        private const string ClientSecret = "FZInowxVyS1xpBHjMn3iulhDSTPAwBwR";
+        private const string ClientSecret = "client_secret";
         private const string RedirectUri = "http://localhost:5001/callback";
         private List<string> imagePaths;
         private int currentImageIndex;

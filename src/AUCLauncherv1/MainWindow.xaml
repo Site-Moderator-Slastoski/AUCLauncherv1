@@ -6,7 +6,7 @@
         WindowStyle="None" 
         AllowsTransparency="True" 
         Background="Transparent" 
-        Height="450" Width="800">
+        Height="900" Width="1600">
 
     <!-- Define the button hover style in Window.Resources -->
     <Window.Resources>
@@ -91,7 +91,7 @@
     <Grid x:Name="MainWindowContents" Background="#1A1A1A">
         <!-- Blurred Circle Animation -->
         <Canvas>
-            <Ellipse Width="322" Height="278" Fill="LightGray" Opacity="0.1" Canvas.Left="239" Canvas.Top="100" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Ellipse Width="760" Height="574" Fill="LightGray" Opacity="0.1" Canvas.Left="420" Canvas.Top="174" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <Ellipse.Effect>
                     <BlurEffect Radius="80"/>
                 </Ellipse.Effect>
@@ -99,18 +99,18 @@
                     <TranslateTransform x:Name="BlurredCircleTransform" />
                 </Ellipse.RenderTransform>
             </Ellipse>
-            <Grid x:Name="Element__1" HorizontalAlignment="Center" Canvas.Left="254" Canvas.Top="170" VerticalAlignment="Center">
-                <Border x:Name="BlackBox" Background="#7F000000" Height="138" Width="292" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="20"/>
-                <TextBlock x:Name="Login" TextWrapping="Wrap" TextAlignment="Center" Margin="29,14,29,94"><Run Language="en-gb" Text="Please login via Discord" FontFamily="Noto Sans" FontWeight="Bold" Foreground="White" FontSize="16"/></TextBlock>
-                <TextBlock x:Name="Access" TextWrapping="Wrap" TextAlignment="Center" Height="30" Width="234" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,33,0,0"><Run Language="en-gb" Text="to access our services." FontFamily="Noto Sans" FontWeight="Bold" Foreground="White" FontSize="12"/></TextBlock>
-                <Button x:Name="LoginButton" Content="Login via Discord" 
+            <Grid x:Name="Element__1" HorizontalAlignment="Center" Canvas.Left="639" Canvas.Top="311" VerticalAlignment="Center">
+                <Border x:Name="BlackBox" Background="#7F000000" Height="300" Width="600" HorizontalAlignment="Left" VerticalAlignment="Center" CornerRadius="20" Canvas.Left="639" Canvas.Top="311" Margin="-123,0,0,0"/>
+                <TextBlock x:Name="Login" TextWrapping="Wrap" TextAlignment="Center" Margin="-32,54,91,54"><Run Language="en-gb" Text="Please login via Discord" FontFamily="Noto Sans" FontWeight="Bold" Foreground="White" FontSize="36"/></TextBlock>
+                <TextBlock x:Name="Access" TextWrapping="Wrap" TextAlignment="Center" Height="30" Width="278" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,89,0,0"><Run Language="en-gb" Text="to access our services." FontFamily="Noto Sans" FontWeight="Bold" Foreground="White" FontSize="24"/></TextBlock>
+                <Button x:Name="LoginButton" Content="Login via Discord" Height="80" Width="300"
                     Click="StartDiscordLogin" 
                     MouseEnter="LoginButton_MouseEnter" 
                     MouseLeave="LoginButton_MouseLeave"
                     FontFamily="Noto Sans" FontWeight="SemiBold" 
                     Background="DarkGray" 
                     BorderThickness="0" 
-                    Style="{StaticResource HoverButtonStyle}" Margin="58,75,58,24">
+                    Style="{StaticResource HoverButtonStyle}" Margin="27,134,150,66">
                     <Button.Template>
                         <ControlTemplate TargetType="{x:Type Button}">
                             <Border Background="{TemplateBinding Background}" 
@@ -124,7 +124,12 @@
                     </Button.Template>
                 </Button>
             </Grid>
-            <Grid x:Name="Page1Contents" Background="#FF1A1A1A" Margin="900,0,0,0" Width="800">
+            <Grid x:Name="Page1Contents" Background="#FF1A1A1A" Margin="1800,0,0,0" Height="900" Width="1600">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="113*"/>
+                    <RowDefinition Height="668*"/>
+                    <RowDefinition Height="120*"/>
+                </Grid.RowDefinitions>
                 <!-- Custom Title Bar -->
                 <Grid Background="Black" Height="25" VerticalAlignment="Top" MouseLeftButtonDown="CustomTitleBar_MouseLeftButtonDown">
                     <TextBlock Text="Among Us: Classic" 
@@ -147,23 +152,27 @@
                      Click="CloseButton_Click"/>
                     </StackPanel>
                 </Grid>
-                <Rectangle HorizontalAlignment="Left" Height="400" Margin="10,40,0,0" VerticalAlignment="Top" Width="39" Fill="#66000000" RadiusX="5" RadiusY="5"/>
-                <Button x:Name="Home" HorizontalAlignment="Left" Margin="14,46,0,0" VerticalAlignment="Top" Height="23" Width="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
-                    <Image Source="Assets/home (1).png" Stretch="Uniform"/>
+                <Rectangle HorizontalAlignment="Left" Height="850" Margin="10,40,0,0" VerticalAlignment="Top" Width="100" Fill="#66000000" RadiusX="5" RadiusY="5" Grid.RowSpan="3"/>
+                <Button x:Name="Home" HorizontalAlignment="Left" Margin="16,46,0,0" VerticalAlignment="Top" Height="80" Width="90" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Grid.RowSpan="2">
+                    <Image Source="Assets/home (1).png" Stretch="Uniform" Height="62" Width="52"/>
                 </Button>
-                <TextBlock HorizontalAlignment="Left" Margin="18,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Noto Sans" FontWeight="SemiBold" FontSize="8"><Run Language="en-gb" Text="Home"/></TextBlock>
-                <Button x:Name="Settings" HorizontalAlignment="Left" Margin="14,400,0,0" VerticalAlignment="Top" Height="23" Width="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
-                    <Image Source="Assets/home (1).png" Stretch="Uniform"/>
+                <TextBlock HorizontalAlignment="Left" Margin="36,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Noto Sans" FontWeight="SemiBold" FontSize="16" Height="38" Width="48" Grid.Row="1" RenderTransformOrigin="0.561,0.491"><Run Language="en-gb" Text="Home"/></TextBlock>
+                <Button x:Name="Settings" HorizontalAlignment="Left" Margin="22,634,0,0" VerticalAlignment="Top" Height="77" Width="78" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Grid.Row="1" Grid.RowSpan="2">
+                    <Image Source="Assets/home (1).png" Stretch="Uniform" Height="62" Width="52"/>
                 </Button>
-                <TextBlock HorizontalAlignment="Left" Margin="15,425,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Noto Sans" FontWeight="SemiBold" FontSize="8"><Run Language="en-gb" Text="Settings"/></TextBlock>
-                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,40,0,0">
-                    <Rectangle HorizontalAlignment="Center" Height="128" VerticalAlignment="Center" Width="720" Fill="#FF101010" RadiusX="5" RadiusY="5"/>
-                    <TextBlock HorizontalAlignment="Left" Height="60" Margin="15,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Foreground="White" FontFamily="Noto Sans" FontWeight="Bold" FontSize="60"><Run Language="en-gb" Text="Welcome!"/></TextBlock>
-                    <TextBlock x:Name="WelcomeText" HorizontalAlignment="Left" Height="38" Margin="15,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Foreground="White" FontFamily="Noto Sans" FontSize="36"><Run Language="en-gb" Text="Welcome!"/></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="32,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Noto Sans" FontWeight="SemiBold" FontSize="16" Grid.Row="2" Height="44" Width="65"><Run Language="en-gb" Text="Settings"/></TextBlock>
+                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,40,0,0" Grid.RowSpan="2">
+                    <Rectangle HorizontalAlignment="Left" Height="312" VerticalAlignment="Center" Width="1442" Fill="#FF101010" RadiusX="5" RadiusY="5" Margin="64,0,0,0"/>
+                    <TextBlock HorizontalAlignment="Left" Height="154" Margin="86,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1103" Foreground="White" FontFamily="Noto Sans" FontWeight="Bold" FontSize="128"><Run Language="en-gb" Text="Welcome!"/></TextBlock>
+                    <TextBlock x:Name="WelcomeText" HorizontalAlignment="Left" Height="92" Margin="86,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="635" Foreground="White" FontFamily="Noto Sans" FontSize="72"><Run Language="en-gb" Text="Welcome!"/></TextBlock>
                 </Grid>
-                <Grid/>
-                <Grid>
-                    <Image x:Name="SlideshowImage" HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Slideshow Images/image1.png" Margin="63,177,0,0" Height="297" Width="716"></Image>
+                <Grid Grid.RowSpan="3"/>
+                <Grid Grid.RowSpan="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="203*"/>
+                        <RowDefinition Height="271*"/>
+                    </Grid.RowDefinitions>
+                    <Image x:Name="SlideshowImage" HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/Slideshow Images/image1.png" Margin="129,370,0,0" Height="495" Width="1547" Grid.RowSpan="2"></Image>
                 </Grid>
             </Grid>
         </Canvas>

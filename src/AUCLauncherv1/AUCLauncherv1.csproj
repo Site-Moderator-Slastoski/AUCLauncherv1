@@ -9,8 +9,35 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\BlackSemi-Transparent.png" />
+    <None Remove="Assets\home %281%29.png" />
+    <None Remove="Assets\home.png" />
+    <None Remove="Assets\HomeButton.svg" />
+    <None Remove="Assets\Slideshow Images\image1.png" />
+    <None Remove="Assets\Slideshow Images\image2.png" />
+    <None Remove="Assets\Slideshow Images\image3.jpg" />
+    <None Remove="Assets\Slideshow Images\image3.png" />
+    <None Remove="Assets\Slideshow Images\image4.jpg" />
+    <None Remove="Assets\Slideshow Images\image4.png" />
+    <None Remove="Assets\Slideshow Images\image5.jpg" />
+    <None Remove="Assets\Slideshow Images\image5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Material.Icons.WPF" Version="2.1.10" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\BlackSemi-Transparent.png" />
+    <Resource Include="Assets\home (1).png" />
+    <Resource Include="Assets\home.png" />
+    <Resource Include="Assets\HomeButton.svg" />
+    <Resource Include="Assets\Slideshow Images\image1.png" />
+    <Resource Include="Assets\Slideshow Images\image2.png" />
+    <Resource Include="Assets\Slideshow Images\image3.png" />
+    <Resource Include="Assets\Slideshow Images\image4.png" />
+    <Resource Include="Assets\Slideshow Images\image5.png" />
   </ItemGroup>
 
 </Project>

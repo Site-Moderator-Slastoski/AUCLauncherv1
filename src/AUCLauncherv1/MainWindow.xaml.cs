@@ -19,27 +19,27 @@ namespace YourNamespace
         private const string TokenUrl = "https://discord.com/api/oauth2/token";
         private const string UserInfoUrl = "https://discord.com/api/users/@me";
         private const string ClientId = "1317587040333991989";
-        private const string ClientSecret = "client_secret";
+        private const string ClientSecret = "FZInowxVyS1xpBHjMn3iulhDSTPAwBwR";
         private const string RedirectUri = "http://localhost:5001/callback";
         private List<string> imagePaths;
         private int currentImageIndex;
         private DispatcherTimer slideshowTimer;
+        private bool isUserLoggedIn = false;
 
         public MainWindow()
         {
             InitializeComponent();
-            InitializeSlideshow();
         }
 
         private void CustomTitleBar_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            if (e.ClickCount == 2) // Double-click to maximize/restore
+            if (e.ClickCount == 2)
             {
                 WindowState = WindowState == WindowState.Maximized ? WindowState.Normal : WindowState.Maximized;
             }
             else
             {
-                DragMove(); // Allow dragging
+                DragMove();
             }
         }
 
@@ -60,7 +60,6 @@ namespace YourNamespace
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
         }
 
         private bool isLoginClicked = false;
@@ -106,10 +105,11 @@ namespace YourNamespace
             imagePaths = new List<string>
             {
                 "Assets/Slideshow Images/image1.png",
-                "Assets/Slideshow/image2.png",
-                "Assets/Slideshow Images/image3.jpg",
-                "Assets/Slideshow Images/image4.jpg",
-                "Assets/Slideshow Images/image5.jpg"
+                "Assets/Slideshow Images/image2.png",
+                "Assets/Slideshow Images/image3.png",
+                "Assets/Slideshow Images/image4.png",
+                "Assets/Slideshow Images/image5.png"
+
             };
 
             currentImageIndex = 0;
@@ -173,6 +173,7 @@ namespace YourNamespace
                 if (isTokenExchanged)
                 {
                     StartGridAnimations();
+                    InitializeSlideshow();
                 }
                 else
                 {

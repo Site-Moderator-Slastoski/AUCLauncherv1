@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ZXigHDyQIc=",
+  "dgSpecHash": "h0MVbUSOOJY=",
   "success": true,
-  "projectFilePath": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\AUCLauncherv1\\AUCLauncherv1.csproj",
+  "projectFilePath": "D:\\Among Us Classic\\Launcher\\Repo\\AUCLauncherv1\\src\\AUCLauncherv1\\AUCLauncherv1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\youtu\\.nuget\\packages\\material.icons\\2.1.10\\material.icons.2.1.10.nupkg.sha512",
     "C:\\Users\\youtu\\.nuget\\packages\\material.icons.wpf\\2.1.10\\material.icons.wpf.2.1.10.nupkg.sha512",

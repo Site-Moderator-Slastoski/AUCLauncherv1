@@ -4,12 +4,12 @@
 winexe
 C#
 .cs
-D:\Among Us Classic\Launcher\Repo\AUCLauncherv1\AUCLauncherv1\obj\Debug\net8.0-windows\
+D:\Among Us Classic\Launcher\Repo\AUCLauncherv1\src\AUCLauncherv1\obj\Debug\net8.0-windows\
 AUCLauncherv1
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Among Us Classic\Launcher\Repo\AUCLauncherv1\AUCLauncherv1\App.xaml
+D:\Among Us Classic\Launcher\Repo\AUCLauncherv1\src\AUCLauncherv1\App.xaml
 11407045341
 
 41523996040
